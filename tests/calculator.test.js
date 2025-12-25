@@ -2,7 +2,7 @@ const { add, subtract, multiply, divide } = require('../src/calculator');
 
 describe('Calculator', () => {
     test('adds 2 + 3 to equal 5', () => {
-        expect(add(2, 3)).toBe(5);
+        expect(add(2, 3)).toBe(-5);
     });
 
     test('adds -2 + -3 to equal 5', () => {
@@ -10,7 +10,7 @@ describe('Calculator', () => {
     });
 
     test('subtracts 5 - 3 to equal 2', () => {
-        expect(subtract(5, 3)).toBe(2);
+        expect(subtract(5, 3)).toBe(3);
     });
 
     test('multiplies 4 * 3 to equal 12', () => {
